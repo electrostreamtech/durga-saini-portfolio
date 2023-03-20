@@ -1,0 +1,89 @@
+
+.fb{
+    font-size: 25px;
+    background-color: white;
+    border-radius: 87%;
+    width: 28px;
+    height: 27px;
+    text-align: center;
+   
+}
+.twitter{color: white;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.h{
+    color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+padding-top: 5%;
+}
+.list{
+
+    font-family:courier;
+font-size: 22px;
+line-height: 148.02%;
+/* or 26px */
+padding-top: 25px;
+
+color: #FFFFFF;
+}
+.text{
+    font-family: 'Hind';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 148.1%;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.text3{padding-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;}
+    
+    .m{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 58px;
+        /* identical to box height */
+        
+        
+        color: #FFFFFF;
+    }
+    .n{
+        font-family: 'Kurale';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 45px;
+        
+        color: #FFFFFF;
+    }
+    .o{
+       padding-top: 1.5rem;
+    }
+    .text5{font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 51px;
+        padding: 5rem;
+        color: #0E0E0E;
+        }
+        .ss{
+            color: #FFFFFF;
+            font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 119.6%;
+margin: 6rem;
+padding: 3rem;
+border-radius: 15px;
+        }

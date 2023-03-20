@@ -1,0 +1,107 @@
+
+.fb{
+    font-size: 25px;
+    background-color: white;
+    border-radius: 87%;
+    width: 28px;
+    height: 27px;
+    text-align: center;
+   
+}
+.twitter{color: white;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.text{
+    font-family: 'Hind';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 148.1%;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.bl{
+    background-color: #303030;
+margin-top: 8%;
+color: #FFFFFF;
+padding: 20px ;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 58px;
+}
+.text1{
+    font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 156.3%;
+/* or 50px */
+
+text-align: center;
+padding-top: 30px;
+color: #000000;
+
+}
+.text2{
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 156.3%;
+/* or 38px */
+padding-top: 20px;
+
+color: #000000;
+
+}
+.h{
+    color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+padding-top: 5%;
+}
+.list{
+
+    font-family:courier;
+font-size: 22px;
+line-height: 148.02%;
+/* or 26px */
+padding-top: 25px;
+
+color: #FFFFFF;
+}
+.text3{padding-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;}
+
+    .head{
+        background-color: #F5841E;
+        padding: 1rem;
+        margin: 5rem;
+   font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 102px;
+        text-align: center;
+        border-radius: 12px;
+        color: #FFFFFF;
+        }
+        .head1{
+            background-color: #303030;
+            font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 58px;
+text-align: center;
+border-radius: 12px;
+color: #FFFFFF;
+margin: 6rem;
+padding: 1rem;
+        }
+       
