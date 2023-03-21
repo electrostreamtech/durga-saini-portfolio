@@ -81,35 +81,64 @@ color: #FFFFFF;
     line-height: 26px;}
 
     .head{
-        background-color: #F5841E;
-        padding: 1rem;
-        margin: 5rem;
-   font-style: normal;
-        font-weight: 600;
-        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
         line-height: 102px;
         text-align: center;
-        border-radius: 12px;
+        background-color: rgb(248, 113, 16);
         color: #FFFFFF;
+        margin:7rem 0rem 2rem 0rem;
+        border-radius: 12px;
         }
-        .head1{
-            background-color: #303030;
+        .text4{
+            font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 155.6%;
+color: #303030;
+padding-top: 1rem ;
+        }
+        .text5{
             font-style: normal;
 font-weight: 700;
-font-size: 36px;
-line-height: 58px;
-text-align: center;
-border-radius: 12px;
-color: #FFFFFF;
-margin: 6rem;
-padding: 1rem;
+font-size: 28px;
+line-height: 119.6%;
+padding-top: 1rem ;
+
+color: #303030;
         }
-       .c{
-        border: 36px solid rgb(5, 110, 5);
-        width: 90%;
-        margin: 2rem;
-       }
-       .o{border: 36px solid rgb(235, 118, 9);
-        width: 90%;
-        margin: 2rem;
-    }
+        .card-img-top{
+            margin-top:4rem;
+            border-radius: 12px;
+            border: 0.1px solid rgb(71, 69, 69);
+            height: 48%;
+        }
+        .card{
+            border-color: white;
+        }
+       .card-text{font-family: 'Hind';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 145.6%;
+        /* or 24px */
+        
+        
+        color: #303030;} 
+        .list1{
+            padding-right: 1rem;
+            border-radius: 0%;
+            
+        }
+        .link{
+            color: #9C9C9C;
+    border: 1px solid #9C9C9C;
+    text-decoration: none;
+    font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 119.6%;
+padding: 0.5rem;
+margin-bottom: 7rem;
+        }
