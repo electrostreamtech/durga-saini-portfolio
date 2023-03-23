@@ -17,9 +17,9 @@
 font-style: normal;
 font-weight: 700;
 font-size: 65px;
-line-height: 148.1%;
+line-height: 140.1%;
 text-align: center;
-
+padding: 4rem 3rem;
 color: #FFFFFF;
 
 }
@@ -74,6 +74,34 @@ padding-top: 25px;
 
 color: #FFFFFF;
 }
+.input{
+    width: 415.68px;
+    height: 71px;
+    border: #E5E5E5;
+    background: #FFFFFF;
+    border-radius: 21px;
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+   
+    padding-left: 1rem;
+}
+.fb1{
+    font-size: 23px;
+    background-color: white;
+    border-radius: 87%;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+   
+}
+.twitter1{color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    text-align: center;}
+   
 .text3{padding-top: 16px;
     font-style: normal;
     font-weight: 400;
@@ -83,19 +111,20 @@ color: #FFFFFF;
         font-style: normal;
         font-weight: 700;
         font-size: 45px;
-        line-height: 102px;
+        line-height: 90px;
         text-align: center;
-        background-color:#F5841E;
+        background-color: #F5841E;
         color: #FFFFFF;
-        margin:7rem 0rem 2rem 0rem;
+        margin: 7rem 0rem 8rem 0rem;
         border-radius: 12px;
-        width: 80%;
+        width: 395px;
         }
+        
         .b{
             border-radius: 12px;
             align-self: center !important;
               color: #FFFFFF;
-              min-height: 518px;
+              min-height: 500px;
               display: flex;
               justify-content: center;
             
@@ -112,6 +141,32 @@ text-align: center;
   align-self: center !important;
         }
         .img1{
-            height: 60%;
-            width: 98%;
+            height: 58vh;
+            width: -webkit-fill-available;
         }
+        .follow{
+            font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 32px;
+                color: #FFFFFF;
+                padding-top:2.5rem;
+                padding-left: 1rem;
+    
+        }
+        @media (min-width: 280px) and (max-width: 1025px) {
+            .text{
+                font-family: 'Hind';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 148.1%;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 0rem 0rem;
+            }
+            .input{
+                width: 315.68px;
+                height: 66px;
+            }
+          }

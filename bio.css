@@ -17,12 +17,22 @@
 font-style: normal;
 font-weight: 700;
 font-size: 65px;
-line-height: 148.1%;
+line-height: 140.1%;
 text-align: center;
-
+padding: 4rem 3rem;
 color: #FFFFFF;
 
 }
+.dp1{
+    width:auto;
+}
+.tx{background-color: #303030;
+    color: #FFFFFF;
+    margin: 7rem 0rem;
+    text-align: center;
+    padding: 15px 30px;
+    width: fit-content;
+    border-radius: 12px;}
 .bl{
     background-color: #303030;
 margin-top: 8%;
@@ -31,10 +41,77 @@ padding: 20px ;
 font-style: normal;
 font-weight: 700;
 font-size: 35px;
-width: 45%;
-    border-radius: 10px;
+width: 370px;
+    border-radius: 12px;
     text-align: center;
 }
+.ml{
+    background-color: #303030;
+margin-top: 8%;
+color: #FFFFFF;
+padding: 20px ;
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+width: 408px;
+    border-radius: 12px;
+    text-align: center;
+}
+.input{
+    width: 415.68px;
+    height: 71px;
+    border: #E5E5E5;
+    background: #FFFFFF;
+    border-radius: 21px;
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+   
+    padding-left: 1rem;
+}
+.fb1{
+    font-size: 23px;
+    background-color: white;
+    border-radius: 87%;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+   
+}
+.twitter1{color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    text-align: center;}
+   .input{
+    width: 415.68px;
+    height: 71px;
+    border: #E5E5E5;
+    background: #FFFFFF;
+    border-radius: 21px;
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+   
+    padding-left: 1rem;
+}
+.fb1{
+    font-size: 23px;
+    background-color: white;
+    border-radius: 87%;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+   
+}
+.twitter1{color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    text-align: center;}
+   
 .text1{
     font-style: normal;
 font-weight: 600;
@@ -98,3 +175,29 @@ color: #FFFFFF;
             
             color: #000000;
             }
+            .follow{
+                font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                    padding-top:2.5rem;
+                    padding-left: 1rem;
+        
+            }
+            @media (min-width: 280px) and (max-width: 1025px) {
+                .text{
+                    font-family: 'Hind';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 45px;
+                line-height: 148.1%;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 0rem 0rem;
+                }
+                .input{
+                    width: 315.68px;
+                    height: 66px;
+                }
+              }

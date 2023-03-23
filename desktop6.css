@@ -17,9 +17,9 @@
 font-style: normal;
 font-weight: 700;
 font-size: 65px;
-line-height: 148.1%;
+line-height: 140.1%;
 text-align: center;
-
+padding: 4rem 3rem;
 color: #FFFFFF;
 
 }
@@ -81,35 +81,89 @@ color: #FFFFFF;
     line-height: 26px;}
 
     .head{
-        background-color: #F5841E;
-        padding: 1rem;
-        margin: 5rem;
-   font-style: normal;
-        font-weight: 600;
-        font-size: 64px;
-        line-height: 102px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 90px;
         text-align: center;
-        border-radius: 12px;
+        background-color: #F5841E;
         color: #FFFFFF;
+        margin: 7rem 0rem 8rem 0rem;
+        border-radius: 12px;
+        width: 575px;
         }
-        .head1{
-            background-color: #303030;
+        .input{
+            width: 415.68px;
+            height: 71px;
+            border: #E5E5E5;
+            background: #FFFFFF;
+            border-radius: 21px;
+          
             font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 58px;
-text-align: center;
-border-radius: 12px;
-color: #FFFFFF;
-margin: 6rem;
-padding: 1rem;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 38px;
+           
+            padding-left: 1rem;
         }
+        .fb1{
+            font-size: 23px;
+            background-color: white;
+            border-radius: 87%;
+            width: 26px;
+            height: 26px;
+            text-align: center;
+           
+        }
+        .twitter1{color: white;
+            font-size: 25px;
+            padding-left: 10px;
+            text-align: center;}
+            .tx{background-color: #303030;
+                color: #FFFFFF;
+                margin: 5rem 0rem;
+                text-align: center;
+                padding: 15px 30px;
+                width: fit-content;
+                border-radius: 12px;}
        .c{
-        border: 36px solid rgb(5, 110, 5);
+        border: 20px solid rgb(5, 110, 5);
         width: 90%;
         margin: 2rem;
        }
-       .o{border: 36px solid rgb(235, 118, 9);
+       .o{border: 20px solid rgb(235, 118, 9);
         width: 90%;
         margin: 2rem;
     }
+    .follow{
+        font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 32px;
+            color: #FFFFFF;
+            padding-top:2.5rem;
+            padding-left: 1rem;
+
+    }
+    .w{
+        width: 90%;
+    }
+    @media (min-width: 280px) and (max-width: 1025px) {
+        .text{
+            font-family: 'Hind';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 148.1%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0rem 0rem;
+        }
+        .input{
+            width: 315.68px;
+            height: 66px;
+        }
+        /* .w{
+            width: 50%;
+        } */
+      }

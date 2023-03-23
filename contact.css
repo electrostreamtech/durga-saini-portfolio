@@ -6,11 +6,7 @@
     width: 28px;
     height: 27px;
     text-align: center;
-   
-}
-.twitter{color: white;
-    font-size: 25px;
-    padding-left: 20px;
+    margin-right: 1px;
 }
 .input{
     width: 415.68px;
@@ -40,6 +36,15 @@
     padding-left: 10px;
     text-align: center;}
    
+.dp1{
+    width:auto;
+}
+.twitter{color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    text-align: center;
+    margin-right: 1px;
+}
 .text{
     font-family: 'Hind';
 font-style: normal;
@@ -49,7 +54,6 @@ line-height: 140.1%;
 text-align: center;
 padding: 4rem 3rem;
 color: #FFFFFF;
-
 
 }
 .bl{
@@ -113,12 +117,13 @@ color: #FFFFFF;
         font-style: normal;
         font-weight: 700;
         font-size: 45px;
-        line-height: 102px;
+        line-height: 90px;
         text-align: center;
-        background-color: rgb(248, 113, 16);
+        background-color: #F5841E;
         color: #FFFFFF;
-        margin:7rem 0rem 2rem 0rem;
+        margin: 7rem 0rem 8rem 0rem;
         border-radius: 12px;
+        width: 385px;
         }
         .dp{
             background-color: rgba(12, 129, 57, 0.801);
@@ -151,18 +156,123 @@ color: #FFFFFF;
             padding-top: 2rem;
             text-align: center;
             letter-spacing: 0.05em;
-            padding-bottom: 13rem;
+            padding-bottom: 15rem;
             color: #000000;
         }
+        .msg{
+            font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 38px;
+color: #303030;
+margin: 3rem;
+
+        }
+        .bg{
+            background-color: #E5E5E5;
+        }
+        .follow1{
+            font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 32px;
+              
+                padding-top:9rem;
+                padding-left:4rem;
+    
+        }
+        .navbar-toggler {
+            color: rgb(209 194 195);
+    background-color:#ece9e9;
+    border: var(--bs-border-width) solid rgb(17, 15, 15);
+        }
+
         .follow{
             font-style: normal;
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 32px;
                 color: #FFFFFF;
-                padding-top:2.5rem;
-                padding-left: 1rem;
+                padding-top :2.5rem;
+                padding-left:1rem;
     
+        }
+        .send{
+            background: #F5841E;
+            border: none;
+            width: 291px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 27px;
+            line-height: 85px;
+            text-align: center;
+            color: #FFFFFF;
+           
+        }
+        .head2{
+            font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 90px;
+        text-align: center;
+        background-color: #F5841E;
+        color: #FFFFFF;
+        margin: 2rem;
+
+        }
+        .icon{
+            color: #FFFFFF;
+            font-size: 40px;
+            margin-top: 2rem;
+        }
+        .form{
+            font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+
+
+color: #F5841E;
+
+        }
+        .yellow{
+            border-radius: 12px;
+            background-color: #F5841E;
+            padding-bottom: 3rem;
+            left: -2rem;
+            margin-top: 5rem;
+            position: absolute;
+        }
+        .fb2{
+            font-size: 36px;
+    background-color: white;
+    border-radius: 87%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color:#F5841E;
+        }
+        .twitter2{
+            color: white;
+    font-size: 40px;
+    padding-left: 15px;
+    text-align: center;
+        }
+        .t1{
+            font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 29px;
+text-align: center;
+/* display: contents; */
+color: #FFFFFF;
+margin-left: 2px;
+        }
+        .input1{
+            border: none;
+            background-color:#E5E5E5 ;
+            border-bottom: 1px solid black;
+            width: 90%;
         }
         @media (min-width: 280px) and (max-width: 1025px) {
             .text{
@@ -175,8 +285,19 @@ color: #FFFFFF;
             color: #FFFFFF;
             padding: 0rem 0rem;
             }
+            .icon{
+                color: #FFFFFF;
+                font-size: 40px;
+                margin-top: 2rem;
+            }
             .input{
                 width: 315.68px;
                 height: 66px;
+            }
+            .t1{
+                
+    font-size: 11px;
+    
+    margin-left: 2px;
             }
           }

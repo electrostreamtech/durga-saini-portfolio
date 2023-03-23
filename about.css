@@ -8,6 +8,9 @@
     text-align: center;
    
 }
+.dp1{
+    width:auto;
+}
 .twitter{color: white;
     font-size: 25px;
     padding-left: 20px;
@@ -17,21 +20,53 @@
 font-style: normal;
 font-weight: 700;
 font-size: 65px;
-line-height: 148.1%;
+line-height: 140.1%;
 text-align: center;
-
+padding: 4rem 3rem;
 color: #FFFFFF;
 
 }
+.input{
+    width: 415.68px;
+    height: 71px;
+    border: #E5E5E5;
+    background: #FFFFFF;
+    border-radius: 21px;
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+   
+    padding-left: 1rem;
+}
+.fb1{
+    font-size: 23px;
+    background-color: white;
+    border-radius: 87%;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+   
+}
+.twitter1{color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    text-align: center;}
+   
 .bl{
     background-color: #303030;
-margin-top: 8%;
+margin-top: 5%;
 color: #FFFFFF;
-padding: 20px ;
+padding: 10px ;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 58px;
+width: 20%;
+text-align: center;
+border-radius: 12px;
+
 }
 .text1{
     font-style: normal;
@@ -48,11 +83,10 @@ color: #000000;
 .text2{
     font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 20px;
 line-height: 156.3%;
-/* or 38px */
-padding-top: 20px;
-
+padding-bottom: 5rem;
+text-align: center;
 color: #000000;
 
 }
@@ -79,3 +113,30 @@ color: #FFFFFF;
     font-weight: 400;
     font-size: 13px;
     line-height: 26px;}
+
+    .follow{
+        font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 32px;
+            color: #FFFFFF;
+            padding-top:2.5rem;
+            padding-left: 1rem;
+
+    }
+    @media (min-width: 280px) and (max-width: 1025px) {
+        .text{
+            font-family: 'Hind';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 148.1%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0rem 0rem;
+        }
+        .input{
+            width: 315.68px;
+            height: 66px;
+        }
+      }
