@@ -135,10 +135,10 @@ color: #FFFFFF;
         .t{
             font-style: normal;
             font-weight: 400;
-            font-size: 30px;
-            line-height: 64px;
+            font-size: 26px;
+            line-height: 44px;
             text-align: center;
-            
+            margin: auto;
             color: #000000;
             
         }
@@ -164,7 +164,7 @@ color: #FFFFFF;
                 padding-left: 1rem;
     
         }
-        @media (min-width: 280px) and (max-width: 1025px) {
+        @media (min-width: 280px) and (max-width: 1400px) {
             .text{
                 font-family: 'Hind';
             font-style: normal;

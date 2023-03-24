@@ -47,13 +47,13 @@ width: 370px;
 }
 .ml{
     background-color: #303030;
-margin-top: 8%;
-color: #FFFFFF;
-padding: 20px ;
-font-style: normal;
-font-weight: 700;
-font-size: 35px;
-width: 408px;
+    margin-top: 5%;
+    color: #FFFFFF;
+    max-width: 90vh;
+    padding: 20px ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
     border-radius: 12px;
     text-align: center;
 }
@@ -115,11 +115,11 @@ width: 408px;
 .text1{
     font-style: normal;
 font-weight: 600;
-font-size: 30px;
+font-size: 29px;
 line-height: 156.3%;
 /* or 50px */
 
-text-align: center;
+
 padding-top: 30px;
 color: #000000;
 
@@ -185,7 +185,7 @@ color: #FFFFFF;
                     padding-left: 1rem;
         
             }
-            @media (min-width: 280px) and (max-width: 1025px) {
+            @media (min-width: 280px) and (max-width: 1400px) {
                 .text{
                     font-family: 'Hind';
                 font-style: normal;

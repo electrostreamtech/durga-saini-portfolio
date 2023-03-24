@@ -124,15 +124,13 @@ color: #FFFFFF;
             border-radius: 12px;
             align-self: center !important;
               color: #FFFFFF;
-              min-height: 500px;
-              display: flex;
-              justify-content: center;
-            
+              background-color: rgb(49, 45, 45);
+           
             font-style: normal;
 font-weight: 700;
 font-size: 24px;
-line-height: 119.6%;
-background-color: rgb(49, 45, 45);
+
+
 text-align: center;
 
         }
@@ -141,8 +139,7 @@ text-align: center;
   align-self: center !important;
         }
         .img1{
-            height: 58vh;
-            width: -webkit-fill-available;
+            height: 500px
         }
         .follow{
             font-style: normal;
@@ -154,7 +151,11 @@ text-align: center;
                 padding-left: 1rem;
     
         }
-        @media (min-width: 280px) and (max-width: 1025px) {
+        .w{
+            max-width: -webkit-fill-available;
+            max-height: -webkit-fill-available;
+        }
+        @media (min-width: 280px) and (max-width: 1400px) {
             .text{
                 font-family: 'Hind';
             font-style: normal;
@@ -170,3 +171,4 @@ text-align: center;
                 height: 66px;
             }
           }
+       

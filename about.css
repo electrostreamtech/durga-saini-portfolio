@@ -124,7 +124,7 @@ color: #FFFFFF;
             padding-left: 1rem;
 
     }
-    @media (min-width: 280px) and (max-width: 1025px) {
+    @media (min-width: 280px) and (max-width: 1400px) {
         .text{
             font-family: 'Hind';
         font-style: normal;
