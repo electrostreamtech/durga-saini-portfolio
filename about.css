@@ -140,3 +140,11 @@ color: #FFFFFF;
             height: 66px;
         }
       }
+      .man{
+        width: -webkit-fill-available
+      }
+      @media (min-width: 280px) and (max-width: 770px) {
+        .man{
+            width:auto
+        }
+      }
