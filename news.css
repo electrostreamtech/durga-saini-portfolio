@@ -125,10 +125,10 @@ color: #FFFFFF;
             align-self: center !important;
               color: #FFFFFF;
               background-color: rgb(49, 45, 45);
-           
+           padding: 0rem 2.5rem;
             font-style: normal;
 font-weight: 700;
-font-size: 24px;
+font-size: x-large;
 
 
 text-align: center;
@@ -154,6 +154,7 @@ text-align: center;
         .w{
             max-width: -webkit-fill-available;
             max-height: -webkit-fill-available;
+           
         }
         @media (min-width: 280px) and (max-width: 1400px) {
             .text{
@@ -171,4 +172,11 @@ text-align: center;
                 height: 66px;
             }
           }
-       
+       .g{
+        border: 12px solid green;
+        border-radius: 23px;
+       }
+       .o{
+        border: 12px solid orangered;
+        border-radius: 23px;
+       }
