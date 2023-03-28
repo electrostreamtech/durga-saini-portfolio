@@ -89,17 +89,17 @@ color: #FFFFFF;
     padding-left: 1rem;
 }
 .fb1{
-    font-size: 23px;
+    font-size: 19px;
     background-color: white;
     border-radius: 87%;
-    width: 26px;
-    height: 26px;
+    /* width: 26px; */
+    /* height: 24px; */
     text-align: center;
-   
+    padding: 2px 5px;
 }
 .twitter1{color: white;
-    font-size: 25px;
-    padding-left: 10px;
+    font-size: 23px;
+    padding-left: 9px;
     text-align: center;}
    
 .text3{padding-top: 16px;
@@ -156,6 +156,10 @@ text-align: center;
             max-height: -webkit-fill-available;
            
         }
+        .man{
+            max-width: fit-content;
+            min-width: -webkit-fill-available;;
+          }
         @media (min-width: 280px) and (max-width: 1400px) {
             .text{
                 font-family: 'Hind';
@@ -165,7 +169,7 @@ text-align: center;
             line-height: 148.1%;
             text-align: center;
             color: #FFFFFF;
-            padding: 0rem 0rem;
+            padding: 2rem 0rem;
             }
             .input{
                 width: 315.68px;

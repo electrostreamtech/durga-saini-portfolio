@@ -23,17 +23,17 @@
     padding-left: 1rem;
 }
 .fb1{
-    font-size: 23px;
+    font-size: 19px;
     background-color: white;
     border-radius: 87%;
-    width: 26px;
-    height: 26px;
+   
     text-align: center;
+    padding: 2px 5px;
    
 }
 .twitter1{color: white;
-    font-size: 25px;
-    padding-left: 10px;
+    font-size: 23px;
+    padding-left: 9px;
     text-align: center;}
    
 .dp1{
@@ -149,16 +149,17 @@ color: #FFFFFF;
         }
         .t1{
             font-style: normal;
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 180.6%;
-            /* or 65px */
-            padding-top: 2rem;
-            text-align: center;
-            letter-spacing: 0.05em;
-            padding-bottom: 15rem;
-            color: #000000;
+font-weight: 700;
+font-size: 17px;
+line-height: 29px;
+text-align: center;
+/* display: contents; */
+color: #FFFFFF;
+margin-left: 2px;
+padding-top: 2rem;
+padding-bottom: 15rem;
         }
+        
         .msg{
             font-style: normal;
 font-weight: 700;
@@ -258,22 +259,17 @@ color: #F5841E;
     padding-left: 15px;
     text-align: center;
         }
-        .t1{
-            font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 29px;
-text-align: center;
-/* display: contents; */
-color: #FFFFFF;
-margin-left: 2px;
-        }
+      
         .input1{
             border: none;
             background-color:#E5E5E5 ;
             border-bottom: 1px solid black;
             width: 90%;
         }
+        .man{
+            max-width: fit-content;
+            min-width: -webkit-fill-available;;
+          }
         @media (min-width: 280px) and (max-width: 1400px) {
             .text{
                 font-family: 'Hind';
@@ -283,7 +279,7 @@ margin-left: 2px;
             line-height: 148.1%;
             text-align: center;
             color: #FFFFFF;
-            padding: 0rem 0rem;
+            padding: 2rem 0rem;
             }
             .icon{
                 color: #FFFFFF;
@@ -293,10 +289,11 @@ margin-left: 2px;
             .input{
                 width: 315.68px;
                 height: 66px;
-            }
+            }}
+            @media (min-width: 280px) and (max-width: 800px) {
             .t1{
                 
-    font-size: 11px;
+    font-size: 17px;
     
     margin-left: 2px;
             }

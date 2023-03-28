@@ -94,19 +94,18 @@ color: #FFFFFF;
         padding-left: 1rem;
     }
     .fb1{
-        font-size: 23px;
-        background-color: white;
-        border-radius: 87%;
-        width: 26px;
-        height: 26px;
-        text-align: center;
-       
+        font-size: 19px;
+    background-color: white;
+    border-radius: 87%;
+    /* width: 26px; */
+    /* height: 24px; */
+    text-align: center;
+    padding: 2px 5px;
     }
     .twitter1{color: white;
-        font-size: 25px;
-        padding-left: 10px;
+        font-size: 23px;
+        padding-left: 9px;
         text-align: center;}
-       
     .head{
         font-style: normal;
         font-weight: 700;
@@ -124,8 +123,8 @@ color: #FFFFFF;
         .text4{
             font-style: normal;
 font-weight: 500;
-font-size: 25px;
-line-height: 155.6%;
+font-size: 24px;
+line-height: 168.6%;
 color: #303030;
 padding-top: 1rem ;
         }
@@ -134,12 +133,10 @@ padding-top: 1rem ;
 font-weight: 700;
 font-size: 28px;
 line-height: 119.6%;
-padding-top: 1rem ;
-
 color: #303030;
         }
         .card-img-top{
-            margin-top:4rem;
+            margin-top:2rem;
             border-radius: 12px;
             border: 0.1px solid rgb(71, 69, 69);
             height: 48%;
@@ -147,7 +144,7 @@ color: #303030;
         .card{
             border-color: white;
         }
-       .card-text{font-family: 'Hind';
+       .text6{font-family: 'Hind';
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -182,7 +179,11 @@ padding: 0.5rem;
                 padding-left: 1rem;
     
         }
-        @media (min-width: 769px) and (max-width: 1400px) {
+        .man{
+            max-width: fit-content;
+            min-width: -webkit-fill-available;;
+          }
+        @media (min-width: 770px) and (max-width: 1400px) {
             .text{
                 font-family: 'Hind';
             font-style: normal;
@@ -191,7 +192,7 @@ padding: 0.5rem;
             line-height: 148.1%;
             text-align: center;
             color: #FFFFFF;
-            padding: 0rem 0rem;
+            padding: 2rem 0rem;
             }
             .input{
                 width: 315.68px;
@@ -199,20 +200,20 @@ padding: 0.5rem;
             }
             .text4{
                 font-style: normal;
-    font-size: 18px;
+    font-size: 17px;
     padding-top: 0rem ;
             }
             .text5{
                 font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 119.6%;
     padding-top: 0.5rem ;
     
     color: #303030;
             }
           }
-          @media (min-width: 300px) and (max-width: 769px) {
+          /* @media (max-width: 300px) and (min-width: 769px) {
             .text{
                 font-family: 'Hind';
             font-style: normal;
@@ -221,7 +222,7 @@ padding: 0.5rem;
             line-height: 148.1%;
             text-align: center;
             color: #FFFFFF;
-            padding: 0rem 0rem;
+            padding: 2rem 0rem;
             }
             .input{
                 width: 315.68px;
@@ -230,16 +231,23 @@ padding: 0.5rem;
           
             .text4{
                 font-style: normal;
-    font-size: 10px;
+    font-size: 18px;
     padding-top: 0rem ;
             }
             .text5{
                 font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 119.6%;
     padding-top: 0.5rem ;
     
     color: #303030;
+            }
+          
+          } */
+     
+          @media only screen and (max-width: 600px) {
+            .text6{
+                font-size: 30px;
             }
           }
