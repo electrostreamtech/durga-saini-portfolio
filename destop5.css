@@ -1,12 +1,10 @@
 
 .fb{
-    font-size: 25px;
+    font-size: 22px;
     background-color: white;
     border-radius: 87%;
-    width: 28px;
-    height: 27px;
     text-align: center;
-   
+    padding: 2px 6px;
 }
 .twitter{color: white;
     font-size: 25px;

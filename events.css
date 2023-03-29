@@ -1,11 +1,10 @@
 
 .fb{
-    font-size: 25px;
+    font-size: 22px;
     background-color: white;
     border-radius: 87%;
-    width: 28px;
-    height: 27px;
     text-align: center;
+    padding: 2px 6px;
    
 }
 .twitter{color: white;
@@ -122,16 +121,16 @@ color: #FFFFFF;
         }
         .text4{
             font-style: normal;
-font-weight: 500;
+font-weight: 400;
 font-size: 24px;
-line-height: 168.6%;
+line-height: 160.6%;
 color: #303030;
 padding-top: 1rem ;
         }
         .text5{
             font-style: normal;
 font-weight: 700;
-font-size: 28px;
+font-size: 27px;
 line-height: 119.6%;
 color: #303030;
         }
@@ -183,7 +182,7 @@ padding: 0.5rem;
             max-width: fit-content;
             min-width: -webkit-fill-available;;
           }
-        @media (min-width: 770px) and (max-width: 1400px) {
+        @media (min-width: 990px) and (max-width: 1400px) {
             .text{
                 font-family: 'Hind';
             font-style: normal;
@@ -198,37 +197,6 @@ padding: 0.5rem;
                 width: 315.68px;
                 height: 66px;
             }
-            .text4{
-                font-style: normal;
-    font-size: 17px;
-    padding-top: 0rem ;
-            }
-            .text5{
-                font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 119.6%;
-    padding-top: 0.5rem ;
-    
-    color: #303030;
-            }
-          }
-          /* @media (max-width: 300px) and (min-width: 769px) {
-            .text{
-                font-family: 'Hind';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 45px;
-            line-height: 148.1%;
-            text-align: center;
-            color: #FFFFFF;
-            padding: 2rem 0rem;
-            }
-            .input{
-                width: 315.68px;
-                height: 66px;
-            }
-          
             .text4{
                 font-style: normal;
     font-size: 18px;
@@ -236,18 +204,52 @@ padding: 0.5rem;
             }
             .text5{
                 font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 119.6%;
-    padding-top: 0.5rem ;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 110.6%;
+   
     
     color: #303030;
             }
-          
-          } */
-     
-          @media only screen and (max-width: 600px) {
-            .text6{
-                font-size: 30px;
+          }
+          @media (min-width: 280px) and (max-width: 990px) {
+            .text{
+                font-family: 'Hind';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 148.1%;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 2rem 0rem;
+            }
+            .input{
+                width: 315.68px;
+                height: 66px;
+            }
+            .text4{
+                font-style: normal;
+    font-size: 25px;
+    padding-top: 0rem ;
+            }
+            .text5{
+                font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 110.6%;
+   margin-top: 1rem;
+    
+    color: #303030;
+            }
+            .card-img-top{
+                margin-top:0.5rem;
+            }
+            .text6{font-family: 'Hind';
+                font-style: normal;
+                font-size: 26px;
+                font-size: 25px;
+                line-height: 135.6%;
+                color: #303030;
             }
           }
+        

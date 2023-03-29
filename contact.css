@@ -1,12 +1,10 @@
 
 .fb{
-    font-size: 25px;
+    font-size: 22px;
     background-color: white;
     border-radius: 87%;
-    width: 28px;
-    height: 27px;
     text-align: center;
-    margin-right: 1px;
+    padding: 2px 6px;
 }
 .input{
     width: 415.68px;
@@ -248,8 +246,7 @@ color: #F5841E;
             font-size: 36px;
     background-color: white;
     border-radius: 87%;
-    width: 40px;
-    height: 40px;
+    padding: 2px 7px;
     text-align: center;
     color:#F5841E;
         }

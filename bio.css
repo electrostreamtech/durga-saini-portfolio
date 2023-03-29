@@ -1,11 +1,10 @@
 
 .fb{
-    font-size: 25px;
+    font-size: 22px;
     background-color: white;
     border-radius: 87%;
-    width: 28px;
-    height: 27px;
     text-align: center;
+    padding: 2px 6px;
    
 }
 .twitter{color: white;
@@ -49,8 +48,9 @@ width: 370px;
     background-color: #303030;
  
     color: #FFFFFF;
-    max-width: 90vh;
-    padding: 20px 0px;
+    max-width: 40%;
+    min-width: 60%;
+    padding: 10px 0px;
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
@@ -127,7 +127,7 @@ color: #000000;
 .text2{
     font-style: normal;
 font-weight: 500;
-font-size: x-large;
+font-size: 24px;
 line-height: 156.3%;
 /* or 38px */
 padding-top: 20px;
@@ -203,6 +203,30 @@ color: #FFFFFF;
                 .input{
                     width: 315.68px;
                     height: 66px;
+                }
+              }
+              @media (min-width: 280px) and (max-width: 500px) {
+                .text1{
+                    font-style: normal;
+                font-weight: 600;
+                font-size: 31px;
+                line-height: 156.3%;
+                /* or 50px */
+                
+                padding-top: 30px;
+                color: #000000;
+                
+                }
+                .text2{
+                    font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 156.3%;
+                /* or 38px */
+                padding-top: 20px;
+                
+                color: #000000;
+                
                 }
               }
              
