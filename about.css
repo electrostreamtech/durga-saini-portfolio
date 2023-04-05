@@ -1,4 +1,6 @@
-
+.dp{
+    border-radius: 80%;
+}
 .fb{
  
     font-size: 22px;
@@ -6,13 +8,29 @@
     border-radius: 87%;
     text-align: center;
     padding: 2px 6px;
+    color: #303030;
 }
+.navbar{
+    background-color: #303030;
+}
+.bg{
+    background-color: #303030;
+}
+
+.w1{
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 128.02%;
+   
+    color: #FFFFFF !important;
+    }
 .dp1{
     width:auto;
 }
 .twitter{color: white;
     font-size: 25px;
-    padding-left: 20px;
+    
 }
 .text{
     font-family: 'Hind';
@@ -82,7 +100,7 @@ color: #000000;
 .text2{
     font-style: normal;
 font-weight: 500;
-font-size: 20px;
+font-size: 24px;
 line-height: 156.3%;
 padding-bottom: 5rem;
 text-align: center;
@@ -127,7 +145,8 @@ color: #FFFFFF;
             padding-left: 1rem;
 
     }
-    @media (min-width: 280px) and (max-width: 1400px) {
+   
+    @media (min-width: 990px) and (max-width: 1400px) {
         .text{
             font-family: 'Hind';
         font-style: normal;
@@ -141,6 +160,28 @@ color: #FFFFFF;
         .input{
             width: 315.68px;
             height: 66px;
+        }
+      }
+      @media (min-width: 300px) and (max-width: 990px) {
+        .text{
+            font-family: 'Hind';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 148.1%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 2rem 0rem;
+        }
+        .input{
+            width: 315.68px;
+            height: 66px;
+        }
+        .w1{
+            font-size: 35px !important;
+        }
+        .dp{
+            max-width: 100%;
         }
       }
      

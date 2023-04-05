@@ -185,7 +185,17 @@ margin: 3rem;
     background-color:#ece9e9;
     border: var(--bs-border-width) solid rgb(17, 15, 15);
         }
-
+        .navbar{
+            background-color: #303030;
+        }
+        .w{
+            font-style: normal;
+            font-weight: 500 !important;
+            font-size: 16px !important;
+            line-height: 128.02%;
+           
+            color: #FFFFFF;
+            }
         .follow{
             font-style: normal;
                 font-weight: 500;
