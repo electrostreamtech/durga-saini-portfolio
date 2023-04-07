@@ -1,30 +1,59 @@
-
+.spanfooter {
+    color: #6CBE03;
+}
+.textdarkfooter{
+    color: #6CBE03;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+.textbgdark{font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+text-align: center;
+}
 .fb{
+ 
     font-size: 22px;
     background-color: white;
     border-radius: 87%;
     text-align: center;
     padding: 2px 6px;
+    color: #303030;
+}
+.dp{
+   
+        border-radius: 80%;
+        width: 55px;
+}
+.navbar{
+    background-color: #303030;
+}
+.twitter{color: white;
+    font-size: 25px;
+    
 }
 .input{
-    width: 415.68px;
-    height: 71px;
-    border: #E5E5E5;
+    padding: 8px;
     background: #FFFFFF;
     border-radius: 21px;
-  
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 38px;
-   
-    padding-left: 1rem;
+    border: none;
+    margin-bottom: 20px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
 }
+
 .fb1{
     font-size: 19px;
     background-color: white;
     border-radius: 87%;
-   
+    /* width: 26px; */
+    /* height: 24px; */
     text-align: center;
     padding: 2px 5px;
    
@@ -33,25 +62,18 @@
     font-size: 23px;
     padding-left: 9px;
     text-align: center;}
-   
 .dp1{
     width:auto;
 }
-.twitter{color: white;
-    font-size: 25px;
-    padding-left: 20px;
-    text-align: center;
-    margin-right: 1px;
-}
+
 .text{
-    font-family: 'Hind';
-font-style: normal;
-font-weight: 700;
-font-size: 65px;
-line-height: 140.1%;
-text-align: center;
-padding: 4rem 3rem;
-color: #FFFFFF;
+    font-weight: 700 !important;
+    font-size: 60px !important;
+    line-height: 140.1% !important;
+    text-align: center;
+    color: #fff;
+
+
 
 }
 .bl{
@@ -88,29 +110,44 @@ color: #000000;
 
 }
 .h{
-    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
     text-align: center;
-    font-style: normal;
-font-weight: 700;
-font-size: 36px;
-padding-top: 5%;
+    color: #fff;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+
+}
+.hh{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #fff;
 }
 .list{
 
     font-family:courier;
 font-size: 22px;
 line-height: 148.02%;
-/* or 26px */
-padding-top: 25px;
 
+list-style-type: none;
 color: #FFFFFF;
 }
-.text3{padding-top: 16px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 26px;}
+.text3{font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;}
+    .name{
+        font-family: 'Hind';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 58px;
 
+color: #FFFFFF;
+      }
     .head{
         font-style: normal;
         font-weight: 700;
@@ -188,13 +225,13 @@ margin: 3rem;
         .navbar{
             background-color: #303030;
         }
-        .w{
+        .w1{
             font-style: normal;
             font-weight: 500 !important;
             font-size: 16px !important;
             line-height: 128.02%;
            
-            color: #FFFFFF;
+            color: #FFFFFF !important;
             }
         .follow{
             font-style: normal;
@@ -244,6 +281,9 @@ line-height: 30px;
 color: #F5841E;
 
         }
+        .position{
+            position: relative;
+        }
         .yellow{
             border-radius: 12px;
             background-color: #F5841E;
@@ -277,31 +317,55 @@ color: #F5841E;
             max-width: fit-content;
             min-width: -webkit-fill-available;;
           }
-        @media (min-width: 280px) and (max-width: 1400px) {
+          @media  (max-width: 1400px){
             .text{
-                font-family: 'Hind';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 45px;
-            line-height: 148.1%;
-            text-align: center;
-            color: #FFFFFF;
-            padding: 2rem 0rem;
+                font-size: 40px !important;
+                padding-top: 2rem;
             }
-            .icon{
-                color: #FFFFFF;
-                font-size: 40px;
-                margin-top: 2rem;
-            }
-            .input{
-                width: 315.68px;
-                height: 66px;
-            }}
-            @media (min-width: 280px) and (max-width: 800px) {
-            .t1{
-                
-    font-size: 17px;
-    
-    margin-left: 2px;
-            }
-          }
+                      }
+                        
+                      @media  (max-width: 980px) 
+                      {.twitter{
+                        margin-left: 10px;
+                      }
+                      .text{
+                        font-size: 40px !important;
+                        padding-top: 2rem;
+                    }
+                    .yellow{
+                        border-radius: 12px;
+                        background-color: #F5841E;
+                        padding-bottom: 3rem;
+                    
+                    }
+                    .position{
+                        position: none;
+                    }
+                    }
+                      @media  (max-width: 767px){
+                        .text{
+                            font-size: 35px !important;
+                            padding-top: 2rem;
+                        }
+                       
+                        
+                        .input{
+                            padding: 5px;
+                            background: #FFFFFF;
+                            border-radius: 21px;
+                            border: none;
+                            margin-bottom: 20px;
+                        margin-top: -1rem !important;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 38px;
+                    }
+                                  }
+                                  @media  (max-width: 500px){
+                                    .text{
+                                        font-size: 35px !important;
+                                        padding-top: 2rem;
+                                    }
+                                    
+                                              }
