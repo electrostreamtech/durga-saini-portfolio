@@ -26,7 +26,7 @@ text-align: center;
 .dp{
    
         border-radius: 80%;
-        width: 55px;
+        width: 45px;
 }
 .navbar{
     background-color: #303030;
@@ -174,13 +174,15 @@ color: #FFFFFF;
                 width: fit-content;
                 border-radius: 12px;}
        .c{
-        border: 15px solid rgb(5, 110, 5);
+        border: 12px solid rgb(5, 110, 5);
         width: 80%;
-        margin: 2rem;
+        border-radius: 12px;
+        
        }
-       .o{border: 15px solid rgb(235, 118, 9);
+       .o{border: 12px solid rgb(235, 118, 9);
         width: 80%;
-        margin: 2rem;
+      border-radius: 12px;
+     
     }
     .follow{
         font-style: normal;
@@ -204,11 +206,35 @@ color: #FFFFFF;
             font-size: 40px !important;
             padding-top: 2rem;
         }
+        .c{
+            border: 10px solid rgb(5, 110, 5);
+            width: 85%;
+            border-radius: 12px;
+           
+    
+           }
+           .o{border: 10px solid rgb(235, 118, 9);
+            width: 85%;
+          border-radius: 12px;
+         
+        }
                   }
                     
                   @media  (max-width: 980px) {.twitter{
                     margin-left: 10px;
                   }
+                  .c{
+                    border: 10px solid rgb(5, 110, 5);
+                    width: 85%;
+                    border-radius: 12px;
+                   
+            
+                   }
+                   .o{border: 10px solid rgb(235, 118, 9);
+                    width: 85%;
+                  border-radius: 12px;
+                 
+                }
                   .text{
                     font-size: 40px !important;
                     padding-top: 2rem;
@@ -251,5 +277,28 @@ color: #FFFFFF;
                                     font-size: 35px !important;
                                     padding-top: 2rem;
                                 }
+                                .head {
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 29px;
+                                    line-height: 50px;
+                                    text-align: center;
+                                    background-color: #F5841E;
+                                    color: #FFFFFF;
+                                    margin: 4rem 0rem 4rem 0rem;
+                                    border-radius: 12px;
+                                    width: 260px;
+                                }
+                                .c{
+                                 border: 9px solid rgb(5, 110, 5);
+                                 width: 80%;
+                                 border-radius: 12px;
                                 
+                         
+                                }
+                                .o{border: 9px solid rgb(235, 118, 9);
+                                 width: 80%;
+                               border-radius: 12px;
+                              
+                             }
                                           }
